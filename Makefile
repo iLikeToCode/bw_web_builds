@@ -37,7 +37,7 @@ clean:
 .PHONY: clean
 
 checkout:
-	./scripts/checkout_web_vault.sh
+	VAULT_VERSION=v2024.6.2 ./scripts/checkout_web_vault.sh
 .PHONY: checkout
 
 patch-web-vault:
